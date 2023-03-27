@@ -1,0 +1,190 @@
+body{
+	background-color: rgba(250, 173, 99, 0.7);
+}
+.kiss {
+		background-image: url(https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71K7ffOA-AS._AC_UL320_.jpg);
+		background-repeat: no-repeat;
+		background-position:center;
+		background-size: cover;
+		height: 100%;
+		width:100%;
+		filter: blur(5px);
+}
+.kiss2 {
+		background-image: linear-gradient( rgb(247, 127, 0), rgb(252, 191, 73));
+		background-repeat: no-repeat;
+		background-position:center;
+		background-size: cover;
+		height: 100%;
+}
+/*for the top navigation bar*/
+li a {
+		display: block;
+		text-align: center;
+		padding: 14px 15px;
+		text-decoration: none;
+		border-radius: 25px;
+		color: ghostwhite;
+	}
+li a:hover {
+		background-color: rgba(247, 127, 0, 0.6);
+		color: ghostwhite;
+	}
+.nav {
+	width:70%;
+	margin:auto;
+	position: fixed;
+	z-index: 1;
+}
+.kick {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		/*background-color: rgba(252, 191, 73, 0.6);
+		border: 2px solid red;*/
+	}
+.block {
+		float: left;
+		font-size: 20px;
+		font-family: sans-serif;
+		padding-left: 50px;
+	}
+.main {
+		padding: 5px 2px 2px 2px;
+		background-color:rgba(252, 191, 73, 0.6);
+		border-radius: 25px;
+		color: ghostwhite;
+		margin:auto;
+		width:90%;
+		text-align:center;
+		display:block;
+		/*border: 2px solid red;*/
+}
+.main2 {
+		padding: 5px 2px 2px 2px;
+		background-color:rgba(252, 191, 73, 0.6);
+		border-radius: 25px;
+		color: rgba(36, 27, 21, 0.9);
+		margin:auto;
+		width:50%;
+		text-align:center;
+		display:block;
+		border: 2px solid red;
+}
+.pos {
+	position: absolute;
+	top: 5%;
+	left: 60%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	width: 70%;
+ 	padding: 20px;
+	text-align: center;
+}
+.pos2 {
+	top: 5%;
+	left: 10%;
+}
+.head {
+	color: white;
+	font-weight: bold;
+	display:block;
+	position: absolute;
+	border: 2px solid rgba(0,0,0,0);
+	border-radius:25%;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	width: 80%;
+	padding: 20px;
+}
+.cl {
+	font-weight:bold;
+	font-size:50px
+}
+.cl2{
+	font-size:35px
+}
+.line{
+	color: ghostwhite;
+	size: 5px
+}
+.marg {
+	margin:auto;
+}
+.prod {
+	padding-top:5px;
+	font-size: 20px;
+	font-family: sans-serif;
+	padding-left: 50px;
+	margin:auto;
+	text-align:center;
+}
+.product {
+	border-radius:20px;
+	margin-left:15px;
+	width: 172px;
+	height: 360px;
+}
+.prodiv {
+	margin:auto;
+	width: 30%;
+	align-content: center;
+	float:left;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flexleft {
+  flex: 50%;
+}
+
+.flexright {
+  flex: 50%;
+}
+
+
+@media screen and (max-width: 600px) {
+	.main {
+    width: 60%;
+	}
+	.pos, .pos2 {
+		top: 7%;
+	}
+	.line, .marg{
+		padding-left: 10px;
+		margin:auto;
+	}
+	.head {
+		top:50%;
+	}
+	.cl {
+	font-weight:bold;
+	font-size:40px
+	}
+	.cl2{
+	font-size:20px
+}
+	.block{
+		font-size:15px;
+		padding-left:5px;
+	}
+	.prodiv {
+		width:50%;
+	}
+	.flexleft, .flexright {
+    flex: 100%;
+  }
+  	.main {
+  		width: 90%;
+  	}
+}
+}
+/*Color Palette*/
+/*Orange: 252, 191, 73;*/
+/*Yellow: 234, 226, 183;*/
+/*REAL Orange: 247, 127, 0;*/
