@@ -124,7 +124,7 @@ li a:hover {
 }
 .product {
 	border-radius:20px;
-	margin-left:15px;
+	padding-left:15px;
 	width: 172px;
 	height: 360px;
 }
