@@ -15,7 +15,6 @@ body{
 		background-repeat: no-repeat;
 		background-position:center;
 		background-size: cover;
-		height: 100%;
 }
 /*for the top navigation bar*/
 li a {
@@ -122,29 +121,13 @@ li a:hover {
 	margin:auto;
 	text-align:center;
 }
-.product {
-	border-radius:20px;
-	padding-left:15px;
-	width: 172px;
-	height: 360px;
-}
-.prodiv {
-	margin:auto;
-	width: 30%;
-	align-content: center;
-	float:left;
-}
-.flex-container {
+.flex {
   display: flex;
-  flex-wrap: wrap;
 }
 
-.flexleft {
-  flex: 50%;
-}
-
-.flexright {
-  flex: 50%;
+.flexer {
+	width:98%;
+	padding:2px 4px
 }
 
 
@@ -176,9 +159,6 @@ li a:hover {
 	.prodiv {
 		width:50%;
 	}
-	.flexleft, .flexright {
-    flex: 100%;
-  }
   	.main {
   		width: 90%;
   	}
