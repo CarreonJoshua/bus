@@ -15,6 +15,27 @@ body{
 		background-repeat: no-repeat;
 		background-position:center;
 		background-size: cover;
+		height: 100%;
+}
+.Login{
+	background-color:rgba(253,196,153,0.5);
+	border:rgb(206,151,109);
+	font-size:25px;
+	font-color:white;
+	padding:20px;
+}
+.Login:hover{
+	background-color:rgba(236,118,27,0.5);
+}
+.Return{
+	background-color:rgba(253,196,153,0.5);
+	border:rgb(206,151,109);
+	font-size:25px;
+	font-color:white;
+	padding:20px;
+}
+.Return:hover{
+	background-color:rgba(236,118,27,0.5);
 }
 /*for the top navigation bar*/
 li a {
@@ -82,8 +103,11 @@ li a:hover {
 	text-align: center;
 }
 .pos2 {
-	top: 5%;
+	top: 10%;
 	left: 10%;
+}
+.pos3{
+	margin-top:-3px;
 }
 .head {
 	color: white;
@@ -101,12 +125,10 @@ li a:hover {
 }
 .cl {
 	font-weight:bold;
-	font-size:70px;
-	text-align: center;
+	font-size:50px
 }
 .cl2{
-	font-size:35px;
-	text-align: center;
+	font-size:35px
 }
 .line{
 	color: ghostwhite;
@@ -123,13 +145,29 @@ li a:hover {
 	margin:auto;
 	text-align:center;
 }
-.flex {
+.product {
+	border-radius:20px;
+	margin-left:15px;
+	width: 172px;
+	height: 360px;
+}
+.prodiv {
+	margin:auto;
+	width: 30%;
+	align-content: center;
+	float:left;
+}
+.flex-container {
   display: flex;
+  flex-wrap: wrap;
 }
 
-.flexer {
-	width:98%;
-	padding:2px 4px
+.flexleft {
+  flex: 50%;
+}
+
+.flexright {
+  flex: 50%;
 }
 
 
@@ -139,6 +177,9 @@ li a:hover {
 	}
 	.pos, .pos2 {
 		top: 7%;
+	}
+	.pos3{
+		margin-left:5px;
 	}
 	.line, .marg{
 		padding-left: 10px;
@@ -161,6 +202,9 @@ li a:hover {
 	.prodiv {
 		width:50%;
 	}
+	.flexleft, .flexright {
+    flex: 100%;
+  }
   	.main {
   		width: 90%;
   	}
