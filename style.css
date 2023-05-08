@@ -1,6 +1,8 @@
+/*background color*/
 body{
 	background-color: rgba(250, 173, 99, 0.7);
 }
+/*background images*/
 .kiss {
 		background-image: url(https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71K7ffOA-AS._AC_UL320_.jpg);
 		background-repeat: no-repeat;
@@ -131,6 +133,7 @@ li a:hover {
 	width: 80%;
 	padding: 20px;
 }
+/*text*/
 .cl {
 	font-weight:bold;
 	font-size:50px
@@ -145,6 +148,7 @@ li a:hover {
 .marg {
 	margin:auto;
 }
+/*product images*/
 .prod {
 	padding-top:5px;
 	font-size: 20px;
@@ -165,6 +169,7 @@ li a:hover {
 	align-content: center;
 	float:left;
 }
+/*for flexes*/
 .flex-container {
   display: flex;
   flex-wrap: wrap;
@@ -178,7 +183,7 @@ li a:hover {
   flex: 50%;
 }
 
-
+/*responsive*/
 @media screen and (max-width: 600px) {
 	.main {
     width: 60%;
