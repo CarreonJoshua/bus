@@ -1,8 +1,6 @@
-/*background color*/
 body{
 	background-color: rgba(250, 173, 99, 0.7);
 }
-/*background images*/
 .kiss {
 		background-image: url(https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71K7ffOA-AS._AC_UL320_.jpg);
 		background-repeat: no-repeat;
@@ -27,7 +25,6 @@ body{
 		height: 100%;
 		width:100%;
 }
-/*button hovers*/
 .Login{
 	background-color:rgba(253,196,153,0.5);
 	border:rgb(206,151,109);
@@ -75,7 +72,6 @@ li a:hover {
 		/*background-color: rgba(252, 191, 73, 0.6);
 		border: 2px solid red;*/
 	}
-/*Text stuff*/
 .block {
 		float: left;
 		font-size: 20px;
@@ -93,7 +89,7 @@ li a:hover {
 		display:block;
 		/*border: 2px solid red;*/
 }
-/*.main2 {
+.main2 {
 		padding: 5px 2px 2px 2px;
 		background-color:rgba(252, 191, 73, 0.6);
 		border-radius: 25px;
@@ -103,8 +99,7 @@ li a:hover {
 		text-align:center;
 		display:block;
 		border: 2px solid red;
-}*/
-/*positions*/
+}
 .pos {
 	position: absolute;
 	top: 5%;
@@ -136,7 +131,6 @@ li a:hover {
 	width: 80%;
 	padding: 20px;
 }
-/*more text*/
 .cl {
 	font-weight:bold;
 	font-size:50px
@@ -151,7 +145,6 @@ li a:hover {
 .marg {
 	margin:auto;
 }
-/*product images*/
 .prod {
 	padding-top:5px;
 	font-size: 20px;
@@ -172,7 +165,6 @@ li a:hover {
 	align-content: center;
 	float:left;
 }
-/*for flexes*/
 .flex-container {
   display: flex;
   flex-wrap: wrap;
@@ -186,7 +178,7 @@ li a:hover {
   flex: 50%;
 }
 
-/*responsive*/
+
 @media screen and (max-width: 600px) {
 	.main {
     width: 60%;
