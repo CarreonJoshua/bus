@@ -17,6 +17,14 @@ body{
 		background-size: cover;
 		height: 100%;
 }
+.kiss3 {
+		background-image: url(https://w0.peakpx.com/wallpaper/717/117/HD-wallpaper-gummy-bears-candy-sugar-sweet.jpg);
+		background-repeat: no-repeat;
+		background-position:center;
+		background-size: cover;
+		height: 100%;
+		width:100%;
+}
 .Login{
 	background-color:rgba(253,196,153,0.5);
 	border:rgb(206,151,109);
@@ -54,13 +62,13 @@ li a:hover {
 	width:70%;
 	margin:auto;
 	position: fixed;
-	z-index: 1;
+	/*z-index: 1;*/
 }
 .kick {
 		list-style-type: none;
 		margin: 0;
 		padding: 0;
-		overflow: hidden;
+		/*overflow: hidden;*/
 		/*background-color: rgba(252, 191, 73, 0.6);
 		border: 2px solid red;*/
 	}
@@ -68,7 +76,7 @@ li a:hover {
 		float: left;
 		font-size: 20px;
 		font-family: sans-serif;
-		padding-left: 50px;
+		padding-left: 100px;
 	}
 .main {
 		padding: 5px 2px 2px 2px;

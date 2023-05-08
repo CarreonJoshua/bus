@@ -10,17 +10,20 @@
 	<div style="background-color:rgba(253,196,153,0.5);border-radius:25px">
 		<h1 style="text-align:center;color:white">LOGIN FORM</h1>
 	</div>
-	<div class="flex-container" style="background-color:rgba(253, 196, 153, 0.5);border-radius:25px">
-		<div class="flexleft" style="background-color:orange;border-radius:25px;padding-bottom:20px;padding-left:30px;margin:10px">
+	<div class="flex-container" style="background-color:rgba(253, 196, 153, 0.5);border-radius:25px;justify-content:center;align-items:center">
+		<div class="flexleft" style="background-color:orange;border-radius:25px;padding-bottom:20px;padding-left:30px;margin:10px;flex-grow:5">
 			<p style="font-size:40px;color:white">Username:</p>
 			<input id="Username" name="username" type="form" style="background-color:rgba(253,196,153,0.5);border:rgb(206,151,109);font-size:20px;font-color:white">
 		</div>
-		<div class="flexleft" style="background-color:orange;border-radius:25px;padding-bottom:20px;padding-left:30px;margin:10px">
+		<div class="flexleft" style="background-color:orange;border-radius:25px;padding-bottom:20px;padding-left:30px;margin:10px;flex-grow:5">
 			<p style="font-size:40px;color:white">Password:</p>
 			<input id="Password" name="password" type="password" style="background-color:rgba(253,196,153,0.5);border:rgb(206,151,109);font-size:20px;font-color:white;mask:all">
 		</div>
+		<div class="flexleft" style="background-color:orange;border-radius:25px;margin:10px;padding:20px">
+			<a style="font-size:20px;color:white;padding-bottom:20px;padding-left:30px" href="regis.html">Not yet a user? Sign up now for free!!!!</a>
+		</div>
 	</div> 
-	<div style="padding:20px;background-color:orange;margin:20px;border-radius:25px">
+	<div style="padding:20px;background-color:orange;margin:20px;border-radius:25px;">
 		<button type="button" name="submit" class="Login" onclick="login()">Login</button>
 		<button type="button" class="Return" onclick="ret()">Return</button>
 	</div>
