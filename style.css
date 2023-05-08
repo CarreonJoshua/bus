@@ -27,6 +27,7 @@ body{
 		height: 100%;
 		width:100%;
 }
+/*button hovers*/
 .Login{
 	background-color:rgba(253,196,153,0.5);
 	border:rgb(206,151,109);
@@ -74,6 +75,7 @@ li a:hover {
 		/*background-color: rgba(252, 191, 73, 0.6);
 		border: 2px solid red;*/
 	}
+/*Text stuff*/
 .block {
 		float: left;
 		font-size: 20px;
@@ -91,7 +93,7 @@ li a:hover {
 		display:block;
 		/*border: 2px solid red;*/
 }
-.main2 {
+/*.main2 {
 		padding: 5px 2px 2px 2px;
 		background-color:rgba(252, 191, 73, 0.6);
 		border-radius: 25px;
@@ -101,7 +103,8 @@ li a:hover {
 		text-align:center;
 		display:block;
 		border: 2px solid red;
-}
+}*/
+/*positions*/
 .pos {
 	position: absolute;
 	top: 5%;
@@ -133,7 +136,7 @@ li a:hover {
 	width: 80%;
 	padding: 20px;
 }
-/*text*/
+/*more text*/
 .cl {
 	font-weight:bold;
 	font-size:50px
